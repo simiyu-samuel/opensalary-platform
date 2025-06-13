@@ -122,3 +122,16 @@ Of course! Here is the provided information formatted as a clean and readable Ma
 - [x] Global impact story + empathy angle
 - [x] Smooth demo & wow moment (chatbot or badge or analysis)
 - [x] Clean GitHub repo & documented pitch
+
+# 🛣️ OpenSalary Hackathon Roadmap – Progress Tracker
+
+## ✅ Day 1 – Ideation & Architecture
+- [x] Finalize Idea
+- [x] Choose Tech Stack
+- [x] Lock Features
+- [x] Plan MVP Scope
+- [x] Create GitHub repo ✅ done: https://github.com/simiyu-samuel/opensalary-platform
+- [x] Add README.md
+- [x] Add roadmap.md
+- [ ] UI Wireframes
+- [ ] Bolt project setup
