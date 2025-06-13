@@ -1,6 +1,3 @@
-Of course! Here is the provided information formatted as a clean and readable Markdown file.
-
-***
 
 # 🛣️ OpenSalary Hackathon Roadmap
 

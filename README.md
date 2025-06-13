@@ -17,6 +17,13 @@
 - `/frontend` – Bolt frontend
 - `/backend` – Supabase schema + API notes
 
+## 🔧 Backend Setup (Supabase)
+
+- Tables: `companies`, `jobs`, `salaries`
+- Supabase Auth: Anonymous enabled
+- RLS: Enabled on `salaries`, insert policy for anon
+- DB is normalized with foreign keys
+
 
 ## 🚧 Roadmap
 See `roadmap.md` for detailed progress.
