@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ChevronRight, DollarSign } from 'lucide-react';
 import Homepage from './pages/index';
 import LookupPage from './pages/lookup';
+import ComparisonPage from './pages/comparison';
 import SubmitPage from './pages/submit';
 import AnalyzerPage from './pages/analyzer';
 import BadgesPage from './pages/badges';
@@ -14,9 +15,11 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'home':
-        return <Homepage />;
+        return <Homepage setCurrentPage={setCurrentPage} />;
       case 'lookup':
         return <LookupPage />;
+      case 'comparison':
+        return <ComparisonPage />;
       case 'submit':
         return <SubmitPage />;
       case 'analyzer':
@@ -26,7 +29,7 @@ function App() {
       case 'chat':
         return <ChatPage />;
       default:
-        return <Homepage />;
+        return <Homepage setCurrentPage={setCurrentPage} />;
     }
   };
 

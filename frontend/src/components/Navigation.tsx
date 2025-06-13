@@ -2,6 +2,7 @@ import React from 'react';
 import { 
   Home, 
   Search, 
+  BarChart2,
   PlusCircle, 
   BarChart3, 
   Award, 
@@ -18,10 +19,11 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage, setCurrentPage }) 
   const navItems = [
     { id: 'home', label: 'Home', icon: Home },
     { id: 'lookup', label: 'Lookup', icon: Search },
+    { id: 'comparison', label: 'Compare', icon: BarChart2 },
     { id: 'submit', label: 'Submit', icon: PlusCircle },
-    { id: 'analyzer', label: 'Analyzer', icon: BarChart3 },
+    { id: 'analyzer', label: 'AI Analyzer', icon: BarChart3 },
     { id: 'badges', label: 'Badges', icon: Award },
-    { id: 'chat', label: 'Chat', icon: MessageCircle },
+    { id: 'chat', label: 'AI Chat', icon: MessageCircle },
   ];
 
   return (
@@ -47,7 +49,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage, setCurrentPage }) 
                   key={item.id}
                   onClick={() => setCurrentPage(item.id)}
                   className={`
-                    flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all duration-200
+                    flex items-center space-x-2 px-3 py-2 rounded-lg font-medium transition-all duration-200 text-sm
                     ${isActive 
                       ? 'bg-blue-100 text-blue-700 shadow-md transform scale-105' 
                       : 'text-gray-600 hover:text-blue-600 hover:bg-gray-50'
