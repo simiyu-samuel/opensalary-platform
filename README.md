@@ -17,5 +17,10 @@
 - `/frontend` – Bolt frontend
 - `/backend` – Supabase schema + API notes
 
-## Roadmap
-See `roadmap.md` for detailed progress tracking.
+
+## 🚧 Roadmap
+See `roadmap.md` for detailed progress.
+
+## 🧑‍💻 Author
+Samuel Simiyu – [LinkedIn](https://www.linkedin.com/in/samuel-simiyu-63270a236)
+
